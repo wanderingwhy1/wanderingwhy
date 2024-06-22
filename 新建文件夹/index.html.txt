@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>王弘毅的个人主页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e6f2ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #99ccff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #fff;
+        }
+        nav {
+            background-color: #cce6ff;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: #333;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #b3d9ff;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #99ccff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .article, .photo {
+            margin-bottom: 20px;
+        }
+        .article h2, .photo h2 {
+            color: #3399ff;
+        }
+        .photo img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>王弘毅的个人主页</h1>
+    </header>
+    <nav>
+        <a href="#articles">文章和论文</a>
+        <a href="#photos">拍摄的图片</a>
+    </nav>
+    <section id="articles">
+        <div class="content">
+            <h2>文章和论文</h2>
+            <div class="article">
+                <h3>文章标题 1</h3>
+                <p>文章摘要或内容简介。你可以在这里添加更多的文章或论文摘要。</p>
+            </div>
+            <div class="article">
+                <h3>文章标题 2</h3>
+                <p>文章摘要或内容简介。你可以在这里添加更多的文章或论文摘要。</p>
+            </div>
+            <!-- 你可以继续添加更多的文章和论文 -->
+        </div>
+    </section>
+    <section id="photos">
+        <div class="content">
+            <h2>拍摄的图片</h2>
+            <div class="photo">
+                <h3>图片标题 1</h3>
+                <img src="1.bmp" alt="图片1描述">
+            </div>
+            <div class="photo">
+                <h3>图片标题 2</h3>
+                <img src="2.jpg" alt="图片2描述">
+            </div>
+            <!-- 你可以继续添加更多的图片 -->
+        </div>
+    </section>
+    <footer>
+        <p>© 2024 王弘毅. 保留所有权利.</p>
+    </footer>
+</body>
+</html>
